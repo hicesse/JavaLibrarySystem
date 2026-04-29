@@ -125,7 +125,7 @@ public class Main extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 224, 171));
 
-        jPanel5.setBackground(new java.awt.Color(208, 191, 179));
+        jPanel5.setBackground(new java.awt.Color(245, 238, 223));
 
         Name_Label.setText("Name");
 
@@ -133,15 +133,19 @@ public class Main extends javax.swing.JFrame {
 
         Address_Label.setText("Address");
 
+        fieldName.setBackground(new java.awt.Color(255, 250, 235));
         fieldName.addActionListener(this::fieldNameActionPerformed);
 
+        fieldEmail.setBackground(new java.awt.Color(255, 250, 235));
         fieldEmail.addActionListener(this::fieldEmailActionPerformed);
 
+        fieldAddress.setBackground(new java.awt.Color(255, 250, 235));
         fieldAddress.addActionListener(this::fieldAddressActionPerformed);
 
         jLabel10.setFont(new java.awt.Font("Serif", 0, 36)); // NOI18N
         jLabel10.setText("Add Members");
 
+        MemberTables.setBackground(new java.awt.Color(255, 250, 235));
         MemberTables.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -213,7 +217,7 @@ public class Main extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap(44, Short.MAX_VALUE)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -233,7 +237,7 @@ public class Main extends javax.swing.JFrame {
                             .addComponent(btnSave)
                             .addComponent(btnEdit)
                             .addComponent(btnDelete)))
-                    .addComponent(LabelGambar, javax.swing.GroupLayout.Alignment.TRAILING))
+                    .addComponent(LabelGambar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(61, 61, 61))
